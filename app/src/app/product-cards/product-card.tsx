@@ -4,7 +4,7 @@ import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardFooter } from "@/components/ui/card"
 import { Laptop, ShoppingCart, BarChart2 , } from 'lucide-react'
-import { X, Cpu, CpuIcon as Gpu, MemoryStickIcon as Memory, HardDrive, Monitor, Weight, Battery, Usb, MonitorSmartphone } from 'lucide-react'
+import { X, Cpu, CpuIcon as Gpu, MemoryStickIcon as Memory, HardDrive } from 'lucide-react'
 
 interface ProductCardProps {
   image: string

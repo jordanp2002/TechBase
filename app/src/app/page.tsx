@@ -1,9 +1,7 @@
-import Image from "next/image";
+
 import NavBar from "@/app/navbar/navbar";
 import FilterBar from "@/app/filter/filter";
 import ProductList from "@/app/cards/cards";
-import { NavigationMenu } from "@/components/ui/navigation-menu";
-import Link from "next/link";
 import React from "react";
 
 

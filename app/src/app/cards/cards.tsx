@@ -32,6 +32,7 @@ const products = [
     storage: '256GB SSD',
     screenSize: '14-inch',
   },
+  // Add more products as needed
 ]
 
 const ProductList: React.FC = () => {
