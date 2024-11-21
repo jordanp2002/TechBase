@@ -3,7 +3,7 @@ import NavBar from "@/app/navbar/navbar";
 import FilterBar from "@/app/filter/filter";
 import ProductList from "@/app/cards/cards";
 import React from "react";
-
+import { Analytics } from "@vercel/analytics/react"
 
 export default function Home() {
   return (
@@ -16,6 +16,7 @@ export default function Home() {
           </div>
           <div className="flex justify-center items-start mt-10">
               <ProductList/>
+              <Analytics />
           </div>
       </div>
   );
